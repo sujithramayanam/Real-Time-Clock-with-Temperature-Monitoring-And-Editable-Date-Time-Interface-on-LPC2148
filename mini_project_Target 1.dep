@@ -1,0 +1,33 @@
+Dependencies for Project 'mini_project', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\delay.c)(0x66FB928C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (types.h)(0x66FB89A1)
+F (.\LCD.c)(0x670251EC)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (LCD_defines.h)(0x66FB88F2)
+I (delay.h)(0x66FB88CE)
+I (types.h)(0x66FB89A1)
+F (.\rtc_main.c)(0x6704D96D)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\rtc_main.o --omf_browse .\rtc_main.crf --depend .\rtc_main.d)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7E87C)
+I (LCD_defines.h)(0x66FB88F2)
+I (LCD.h)(0x66FB928C)
+I (types.h)(0x66FB89A1)
+I (adc.h)(0x67024B9E)
+I (adc_defines.h)(0x67024BBA)
+I (gp2xx.h)(0x6702566A)
+I (kpm.h)(0x67025D1F)
+I (delay.h)(0x66FB88CE)
+F (.\ADC.c)(0x67024F4A)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (types.h)(0x66FB89A1)
+I (defines.h)(0x6704D4B3)
+I (adc_defines.h)(0x67024BBA)
+I (delay.h)(0x66FB88CE)
+F (.\gp2xx.c)(0x67025688)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\gp2xx.o --omf_browse .\gp2xx.crf --depend .\gp2xx.d)
+I (types.h)(0x66FB89A1)
+F (.\kpm.c)(0x67026A6F)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\kpm.o --omf_browse .\kpm.crf --depend .\kpm.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (types.h)(0x66FB89A1)
+I (defines.h)(0x6704D4B3)
+I (KPM_defines.h)(0x67025D1F)
